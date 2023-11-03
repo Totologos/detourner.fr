@@ -15,7 +15,6 @@ copyrights = "detourner.fr"
 defaultList = "global"
 paginationLen = 3
 projectsURL = "https://www.detourner.fr"
-brief_about = "<center>Kaslaanka theme demo made with ???</center>"
 highlightjs = true
 highlightjslanguages = ["r", "python", "stan"]
 uselatex = true
