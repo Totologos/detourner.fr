@@ -1,0 +1,35 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Détourner'
+theme = 'hugo-tanka'
+
+enableEmoji = true
+hasCJKLanguage = false
+
+pygmentsstyle = "vs"
+pygmentscodefences = true
+
+[params]
+sitename = "Détourner"
+copyrights = "detourner.fr"
+defaultList = "global"
+paginationLen = 3
+projectsURL = "https://www.detourner.fr"
+highlightjs = true
+highlightjslanguages = ["r", "python", "stan"]
+uselatex = true
+progressively = false
+
+[[menu.primary]]
+name = "Objets"
+url = "/pages/objects"
+weight = 1
+
+[[menu.primary]]
+name = "A propos"
+url = "/pages/about"
+weight = 2
+
+
+
+
