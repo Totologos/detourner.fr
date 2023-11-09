@@ -1,7 +1,7 @@
 +++
 title = 'A propos de...'
 date = 2023-10-26T16:18:07+02:00
-draft = true
+draft = false
 +++
 
 Détourner est un atelier créatif piloté par Thomas Faure ingénieur spécialisé dans la conception de produits technologiques 

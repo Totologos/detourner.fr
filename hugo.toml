@@ -1,7 +1,7 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Détourner'
-theme = 'hugo-tanka'
+theme = 'researcher'
 
 enableEmoji = true
 hasCJKLanguage = false
@@ -20,6 +20,19 @@ highlightjslanguages = ["r", "python", "stan"]
 uselatex = true
 progressively = false
 
+[params.style]  # appearance options (can be omitted)
+    fontFamily = "Calibri"
+    fontSize = "13pt"
+    pageWidth = "750px"
+    avatarSize = "90px"
+    colorBlack = "#222222"
+    colorRed = "#dc3545"
+
+[menu]
+	[[menu.main]]
+	name = "A propos"
+	url = "/pages/about"
+	weight = 2
 
 
 
