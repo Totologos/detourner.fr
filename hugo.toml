@@ -20,15 +20,6 @@ highlightjslanguages = ["r", "python", "stan"]
 uselatex = true
 progressively = false
 
-[[menu.primary]]
-name = "Objets"
-url = "/pages/objects"
-weight = 1
-
-[[menu.primary]]
-name = "A propos"
-url = "/pages/about"
-weight = 2
 
 
 
