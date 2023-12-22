@@ -1,23 +1,21 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'Détourner'
-theme = 'hugo-creative-portfolio-theme'
+baseurl = "https://example.org/"
+title = "Creative portfolio"
+theme = "hugo-creative-portfolio-theme"
+languageCode = "en-us"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
 
 [params]
-  about = 'about.md'
-  logo = 'logo_detourner.PNG'
   # Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
   style = "default"
   description = "Describe your website"
-  copyright = "&copy;2024 Détourner"
+  copyright = "&copy;2016 Your name or company"
   sidebarAbout = [
-    "*Détourner* est un atelier de création d'objets technologique atypique et divertissant",  
-    "Chez *Détourner* nous aimons cohabiter avec des objets électronique qui apportent une pointe d'excentricité dans la vie de tous les jours.",
-    "Nous prenons le temps d'écouter, de concevoir, de chiner, de modifier, de prototyper",
-    "et d'interconnecter pour servir une idée, un concept, un besoin !",
-    "Nous jonglons avec les matières, la lumière et le mouvement aux milieux d'une forêt de ",
-    "vieux d'objets de tous horizons qui se retrouvent embarquer dans de nouvelles aventures"
+    "I am a creative illustrator and graphic designer with more than 10 years of experience.",
+    "Originally from Toronto, currently based in London."
   ]
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a
@@ -52,6 +50,19 @@ theme = 'hugo-creative-portfolio-theme'
   name = "About"
   url = "about/"
 
+  [[params.navlinks]]
+  name = "Get in touch"
+  url = "contact/"
 
-
-
+  [params.social]
+  facebook      = "full page or profile url in facebook"
+  googleplus    = "full profile url in googleplus"
+  email         = "email@example.com"
+  twitter       = "full profile url in twitter"
+  linkedin      = "full profile url in linkedin"
+  stackoverflow = "full profile url in stackoverflow"
+  instagram     = "full profile url in instagram"
+  github        = "full profile url in github"
+  gitlab        = "full profile url in gitlab"
+  youtube       = "full profile url in youtube"
+  whatsapp      = "wa.me service link"
