@@ -5,7 +5,6 @@
           <img src="{{.Site.Params.Logo | absURL}}" alt="{{ .Site.Title }}"/>
       </a>
       </div>
-    {{ about.Content}}
     {{ range .Site.Params.sidebarAbout }}
       <p class="sidebar-p">{{ . | safeHTML }}</p>
     {{ end }}

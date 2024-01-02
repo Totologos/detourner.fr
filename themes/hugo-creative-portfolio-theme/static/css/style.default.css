@@ -52,7 +52,7 @@ section.background-secondary {
 }
 .italic {
   font-style: italic;
-  font-family: "Georgia", "Times New Roman", Times, serif;
+  font-family: "Courier New", "Times New Roman", Times, serif;
 }
 .img-responsive {
   margin: 0 auto;
@@ -317,6 +317,7 @@ SIDEBAR + RIGHT COLUMN
 =====================
 */
 #sidebar {
+  max-width: 300px;
   padding-top: 10px;
 }
 .sidebar-content {
@@ -363,8 +364,8 @@ SIDEBAR + RIGHT COLUMN
   color: #555555;
 }
 .sidebar-menu li:before {
-  font-family: 'FontAwesome';
-  content: '\f105';
+  font-family: 'Courier New';
+  content: '>';
   margin: 0 5px 0 -15px;
   color: #999999;
 }
@@ -384,6 +385,7 @@ SIDEBAR + RIGHT COLUMN
 }
 
 .content-column {
+  max-width: 700px;
   padding-top: 40px;
 }
 .content-column.white-background {
@@ -416,7 +418,7 @@ SIDEBAR + RIGHT COLUMN
   list-style-type: none;
 }
 .content-column-content ul li:before {
-  font-family: 'FontAwesome';
+  font-family: 'Courier New';
   content: '\f105';
   margin: 0 5px 0 -15px;
   color: #ef5285;
@@ -451,6 +453,13 @@ SIDEBAR + RIGHT COLUMN
   color: #000;
   text-decoration: none;
 }
+
+.small-navbar-heading img {
+  width: fit-content;
+  height: 100px;
+}
+
+
 /*
 =====================
 OFF-CANVAS SIDEBAR BEHAVIOUR
@@ -849,8 +858,9 @@ a:active {
   margin-right: -15px;
   margin-left: -15px;
 }
-.box-masonry {
-  background: #fff;
+.card {
+  padding: 20px;
+  background: #eee;
   margin-bottom: 30px;
   position: relative;
   box-shadow: 0 0 5px #ccc;
@@ -860,30 +870,30 @@ a:active {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.box-masonry h4 {
+.card h4 {
   font-size: 16px;
   line-height: 1.5;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
-.box-masonry h4 a {
+.card h4 a {
   color: #000;
   border-bottom: solid 1px transparent;
 }
-.box-masonry h4 a:hover {
+.card h4 a:hover {
   border-bottom: dotted 1px #ef5285;
   color: #000;
   text-decoration: none;
 }
-.box-masonry .box-masonry-text {
+.card .card-text {
   padding: 15px 20px 15px;
 }
-.box-masonry .box-masonry-text p {
+.card .card-text p {
   color: #999999;
   font-size: 14px;
 }
-.box-masonry .box-masonry-hover-text-header {
+.card .card-hover-text-header {
   position: absolute;
   left: 0;
   right: 0;
@@ -895,13 +905,13 @@ a:active {
   transition: all 0.2s ease-out;
   color: #555555;
 }
-.box-masonry .box-masonry-hover-text-header p {
+.card .card-hover-text-header p {
   font-size: 14px;
 }
-.box-masonry .box-masonry-hover-text-header h4 a {
+.card .card-hover-text-header h4 a {
   color: #555555;
 }
-.box-masonry .box-masonry-hover-center {
+.card .card-hover-center {
   position: absolute;
   width: 100%;
   top: 30%;
@@ -912,36 +922,36 @@ a:active {
   transition: all 0.2s ease-out;
   text-align: center;
 }
-.box-masonry .box-masonry-hover-center .see-more-icon {
+.card .card-hover-center .see-more-icon {
   color: #555555;
   font-size: 50px;
 }
-.box-masonry:hover {
+.card:hover {
   box-shadow: 0 0 5px #999;
 }
-.box-masonry:hover .box-masonry-hover-text-header {
+.card:hover .card-hover-text-header {
   opacity: 1;
 }
-.box-masonry:hover .box-masonry-hover-center {
+.card:hover .card-hover-center {
   opacity: 1;
 }
-.box-masonry:hover .box-masonry-image.with-hover-overlay:before {
+.card:hover .card-img-top.with-hover-overlay:before {
   opacity: 0.8;
 }
-.box-masonry:hover .box-masonry-image.with-hover-icon:after {
+.card:hover .card-img-top.with-hover-icon:after {
   opacity: 0.7;
 }
-.box-masonry h2:last-child,
-.box-masonry p:last-child {
+.card h2:last-child,
+.card p:last-child {
   margin-bottom: 0;
 }
-.box-masonry .box-masonry-image {
+.card .card-img-top {
   display: block;
   position: relative;
   min-height: 100px;
   background: #ccc;
 }
-.box-masonry .box-masonry-image.with-hover-overlay:before {
+.card .card-img-top.with-hover-overlay:before {
   display: block;
   position: absolute;
   content: " ";
@@ -955,7 +965,7 @@ a:active {
   -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
-.box-masonry .box-masonry-image.with-hover-icon:after {
+.card .card-img-top.with-hover-icon:after {
   display: block;
   position: absolute;
   width: 100%;
@@ -974,7 +984,7 @@ a:active {
   font-size: 50px;
   color: #555555;
 }
-.box-masonry .box-masonry-image:hover {
+.card .card-img-top:hover {
   text-decoration: none;
 }
 .box-simple {
@@ -1319,7 +1329,7 @@ STYLE SWITCHER FOR DEMO
 }
 /* navbar */
 .navbar {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Courier New", Helvetica, Arial, sans-serif;
   min-height: 80px;
   margin-bottom: 0;
   border-top: none;
@@ -1606,7 +1616,7 @@ STYLE SWITCHER FOR DEMO
 }
 /* scaffolding */
 body {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Courier New", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.55;
   color: #000000;
@@ -1683,7 +1693,7 @@ hr {
 /* buttons  */
 .btn {
   font-weight: 400;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Courier New", Helvetica, Arial, sans-serif;
   padding: 6px 12px;
   font-size: 16px;
   line-height: 1.55;
@@ -1802,7 +1812,7 @@ fieldset[disabled] .btn-transparent.active {
 }
 /* labels */
 .label {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Courier New", Helvetica, Arial, sans-serif;
   font-weight: normal;
   text-transform: uppercase;
 }
@@ -1856,7 +1866,7 @@ label {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-size: 14px;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Courier New", Helvetica, Arial, sans-serif;
   font-weight: bold;
 }
 .pager li {
@@ -1885,7 +1895,7 @@ label {
 /* pagination */
 .pagination {
   margin: 24px 0;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Courier New", Helvetica, Arial, sans-serif;
   border-radius: 0;
 }
 .pagination > li > a,
@@ -1971,27 +1981,27 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Courier New", Helvetica, Arial, sans-serif;
   font-weight: 700;
   line-height: 1.2;
   color: #000000;
 }
 h1,
 .h1 {
-  font-size: 48px;
+  font-size: 24px;
 }
 h2,
 .h2 {
-  font-size: 38px;
+  font-size: 22px;
 }
 h3,
 .h3 {
-  font-size: 32px;
+  font-size: 20px;
   font-weight: 700;
 }
 h4,
 .h4 {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 700;
 }
 h5,
