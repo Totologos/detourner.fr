@@ -9,7 +9,7 @@ title = "A propos de"
 Il lie l'ensemble des compétences nécéssaires (mécanique, électronique et informatique) permettant de créer des objets technologique atypique et divertissant en partant de la concetpion jusqu'à la fabrication.
 Ces objets sont soit uniques soient produits en petites séries. 
 
-***Détourner*** met également à diposition de ses clients sont savoir faire et son expérience pour réaliser tout type d'objets (concept, publicitaire, évenmentiels, artistique, ...) en adéquation avec son ADN.
+***Détourner*** met également à diposition son savoir faire et son expérience pour réaliser tout type d'objets (concept, publicitaire, évenmentiels, artistique, ...) en adéquation avec son ADN.
 
 Des questions sur les objets présentés, un projet, une idée un concept que vous aimeriez développer et fabriquer avec nous ou tout simplement l'envie d'échanger, n'hésitez pas à prendre contact : contact@detourner.fr 
 
