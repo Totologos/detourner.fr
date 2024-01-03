@@ -5,7 +5,7 @@ theme = 'hugo-creative-portfolio-theme'
 
 [params]
   about = 'about.md'
-  logo = 'logo_detourner.PNG'
+  logo = 'logo_detourner.png'
   # Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
   style = "default"

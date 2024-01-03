@@ -3,20 +3,27 @@ date = "2024-01-01T21:05:33+05:30"
 title = "A propos de"
 +++
 
-{{< figure class="about" src="/about/tfa.PNG" alt="Thomas Faure">}}
 
+***Détourner*** est un atelier créatif basé à [**Couëron**][2] en aglomération Nantaise axé sur le détournement et la réutilisation d'objets anciens.
 
-Détourner est un atelier créatif piloté par [**Thomas Faure**][1] ingénieur spécialisé dans la conception de produits technologiques 
+Il lie l'ensemble des compétences nécéssaires (mécanique, électronique et informatique) permettant de créer des objets technologique atypique et divertissant en partant de la concetpion jusqu'à la fabrication.
+Ces objets sont soit uniques soient produits en petites séries. 
+
+***Détourner*** met également à diposition de ses clients sont savoir faire et son expérience pour réaliser tout type d'objets (concept, publicitaire, évenmentiels, artistique, ...) en adéquation avec son ADN.
+
+Des questions sur les objets présentés, un projet, une idée un concept que vous aimeriez développer et fabriquer avec nous ou tout simplement l'envie d'échanger, n'hésitez pas à prendre contact : contact@detourner.fr 
+
+![](/about/work_000.png)
+
+***Détourner*** est piloté par [**Thomas Faure**][1] ingénieur spécialisé dans la conception de produits technologiques 
 depuis une quinzaine d'années et ce, dans de nombreux secteurs d'activité allant de l'audioguidage au poste de pilotage 
 de sous-marin en passant par des équipements industriels ou immotique. 
 
-Passionné par l'envie de répondre élégamment aux besoins de ses clients, il met à disposition de 
-***Détourner*** ses compétences pluridisciplinaires (mécanique, électrique, électronique et informatique) 
-pour créer toutes sortes d'objets allant du prototype à la petite série. 
+![](/about/tfa_s.png)
 
-Des questions sur les objets présentés, un projet, une idée un concept que vous aimeriez que l'on développe et 
-concrétise ensemble ou tout simplement l'envie d'échanger, n'hésitez pas à prendre contact  
-
-contact@detourner.fr 
+Site généré via [***Hugo***][3] avec un tème inspiré par [***Kishan B***][4]
 
 [1]: https://www.linkedin.com/in/thomas-faure-9916b818/
+[2]: https://fr.wikipedia.org/wiki/Cou%C3%ABron
+[3]: https://gohugo.io/
+[4]: https://github.com/kishaningithub
