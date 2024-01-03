@@ -3,6 +3,10 @@ languageCode = 'fr-FR'
 title = 'Détourner'
 theme = 'hugo-creative-portfolio-theme'
 
+[params.meta]
+  favicon = true
+
+
 [params]
   about = 'about.md'
   logo = 'logo_detourner.png'

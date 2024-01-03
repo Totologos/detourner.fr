@@ -411,6 +411,7 @@ SIDEBAR + RIGHT COLUMN
   color: #555555;
 }
 .content-column-content p,
+.summary p,
 .content-column-content li {
   color: #555555;
 }
@@ -887,7 +888,8 @@ a:active {
   text-decoration: none;
 }
 .card .card-text {
-  padding: 15px 20px 15px;
+  padding: 0px 15px 15px;
+  color: #555
 }
 .card .card-text p {
   color: #999999;
@@ -987,6 +989,7 @@ a:active {
 .card .card-img-top:hover {
   text-decoration: none;
 }
+
 .box-simple {
   text-align: center;
   margin-bottom: 48px;
@@ -1984,7 +1987,7 @@ h6,
   font-family: "Courier New", Helvetica, Arial, sans-serif;
   font-weight: 700;
   line-height: 1.2;
-  color: #000000;
+  color: #747474;
 }
 h1,
 .h1 {
