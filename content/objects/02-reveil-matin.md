@@ -4,7 +4,7 @@ draft = false
 image = "/objects/mc_002.jpg"
 date = "2017-11-05T18:25:22+05:30"
 title = "Réveil matin"
-description = "Mise en lumière d'un réveil électro-mécanique au son du Nokia 3310"
+description = "Mise en lumière d'un réveil électromécanique au son du Nokia 3310"
 weight = 0
 +++
 
