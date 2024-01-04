@@ -11,7 +11,7 @@ weight = 0
 
 ![](/objects/pl_002.jpg)
 
-L'Objet est un jeu électronique rétrofuturiste doté d'une interface minimaliste composé d'un clavier typé GameBoy et d'un écran composé de 49 pixels pouvant s'allumer en différentes couleurs. Composé d'un ensemble de niveau, le jeu consiste à faire se déplacer un serpent de manière à ce qu'il remplisse l'ensemble de l'écran.  
+L'Objet est un jeu électronique rétrofuturiste doté d'une interface minimaliste composé d'un clavier typé Gameboy et d'un écran composé de 49 pixels pouvant s'allumer en différentes couleurs. Composé d'un ensemble de niveau, le jeu consiste à faire se déplacer un serpent de manière à ce qu'il remplisse l'ensemble de l'écran.  
 
 ![](/objects/pl_001.jpg)
 

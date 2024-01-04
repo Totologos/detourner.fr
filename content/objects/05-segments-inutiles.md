@@ -4,16 +4,16 @@ draft = false
 image = "/objects/7c_001.jpg"
 date = "2020-11-05T18:25:22+05:30"
 title = "Les segments inutiles"
-description = "Un millier de segments alors que 30 auraient suffit !"
+description = "Un millier de segments alors que 30 auraient suffi !"
 weight = 0
 +++
 
 ![](/objects/7c_001.jpg)
 
 
-L'Objet est une horloge qui remet en perspective l'affichage du temps. La matrice, composée de 192 afficheurs 7 segments, affiche de manière cursive le temps qui passe. Absurdité de la chose puisque 4 de ces même afficheurs auraient suffi à donner l'heure.  
+L'Objet est une horloge qui remet en perspective l'affichage du temps. La matrice, composée de 192 afficheurs 7 segments, affiche de manière cursive le temps qui passe. Absurdité de la chose puisque 4 de ces mêmes afficheurs auraient suffi à donner l'heure.  
 
-L'Objet a été conçu sur un principe de modularité puisque composé de 12 circuits comprenant chacun 16 afficheurs 7 segments. Ces circuit sont maintenus entre eux par un élégant châssis imprimé en 3D.   
+L'Objet a été conçu sur un principe de modularité puisque composé de 12 circuits comprenant chacun 16 afficheurs 7 segments. Ces circuits sont maintenus entre eux par un élégant châssis imprimé en 3D.   
 
 ![](/objects/7c_003.jpg)
 

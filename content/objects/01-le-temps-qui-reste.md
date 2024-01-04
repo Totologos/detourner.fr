@@ -4,7 +4,7 @@ draft = false
 image = "/objects/cde_001.jpg"
 date = "2016-11-05T18:25:22+05:30"
 title = "Le temps qui reste"
-description = "Lorsque un ancien radio reveil vous propose d'appréhender le temps qui s'écoule d'une manière différente"
+description = "Lorsque un ancien radio réveil vous propose d'appréhender le temps qui s'écoule d'une manière différente"
 weight = 0
 +++
 
@@ -21,7 +21,7 @@ Un lecteur RFID permet d'identifier individuellement chaque carte.
 Le paramétrage des cartes est confié à une page hébergée dans le nuage et interconnecté 
 à la carte Photon via le nuage Particle. 
 
-Dessins graphique des cartes réalisés par l'artiste [**M/**][3]
+Dessins graphiques des cartes réalisés par l'artiste [**M/**][3]
 
 ![](/objects/cde_003.jpg)
 

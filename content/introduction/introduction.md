@@ -6,7 +6,7 @@ title = "Atelier de création d'objets"
 
 ***Détourner*** est un atelier de création d'objets technologique atypique et divertissant.
 
-Chez ***Détourner*** nous aimons cohabiter avec des objets électronique qui apportent une pointe 
+Chez ***Détourner*** nous aimons cohabiter avec des objets électroniques qui apportent une pointe 
 d'excentricité dans la vie de tous les jours.
 
 Nous prenons le temps d'écouter, de concevoir, de chiner, de modifier, de prototyper 
