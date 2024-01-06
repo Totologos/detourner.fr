@@ -18,7 +18,7 @@ L'Objet en plus du réveil électromécanique utilise une carte [**Arduino**][1]
 
 Le graphisme a été réalisé par l'artiste [**M/**][3]
 
-![](/objects/mc_001.jpg)
+![](/objects/mc_003.jpg)
 
 [1]: https://www.arduino.cc/
 [3]: https://mslash.fr/
