@@ -13,7 +13,7 @@ theme = 'hugo-creative-portfolio-theme'
   # Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
   style = "default"
-  description = "Describe your website"
+  description = "Détourner est un atelier de création d'objets technologique atypique et divertissant."
   copyright = "&copy;2024 Détourner"
   sidebarAbout = ["Atelier de création d'objets"]
   email = "contact@detourner.fr"

@@ -12,7 +12,7 @@ weight = 0
 ![](/objects/mc_002.jpg)
 
 L'Objet est simplement une mise en lumière d'un réveil électromécanique des années 70.  
-Il vous réveillera au son du Nokia 3310  
+Il vous réveillera au son du Nokia 3310.  
 
 L'Objet en plus du réveil électromécanique utilise une carte [**Arduino**][1] pour gérer le rétroéclairage, les touches capacitives et la génération de la mélodie de la fonction réveil via un module piézoélectrique. 
 

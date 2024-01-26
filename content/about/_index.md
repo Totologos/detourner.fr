@@ -4,18 +4,18 @@ title = "A propos de"
 +++
 
 
-***Détourner*** est un atelier créatif basé à [**Couëron**][2] en agglomération Nantaise axé sur le détournement 
+***Détourner*** est un atelier créatif basé à [**Couëron**][2] en agglomération nantaise axé sur le détournement 
 et la réutilisation d'objets anciens.
 
-Il lie l'ensemble des compétences nécessaires (mécanique, électronique et informatique) permettant de créer 
-des objets technologiques atypique et divertissant en partant de la conception jusqu'à la fabrication.
-Ces objets sont soit uniques soient produits en petites séries. 
+Il réunit l'ensemble des compétences nécessaires (mécanique, électronique et informatique) permettant de créer 
+des objets technologiques atypique et divertissants, allant de la conception jusqu'à la fabrication.
+Ces objets sont soit uniques soit produits en petites séries. 
 
 ***Détourner*** met également à disposition son savoir-faire et son expérience pour réaliser 
 tout type d'objets (concept, publicitaire, événementiel, artistique, ...) en adéquation avec son ADN.
 
 Des questions sur les objets présentés, un projet, une idée un concept que vous aimeriez développer et fabriquer 
-avec nous ou tout simplement l'envie d'échanger, n'hésitez pas à prendre contact : contact@detourner.fr 
+avec nous, ou tout simplement l'envie d'échanger, n'hésitez pas à prendre contact : contact@detourner.fr 
 
 ![](/about/work_000.png)
 
