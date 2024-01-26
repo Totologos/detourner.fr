@@ -1,0 +1,34 @@
+<div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
+  {{ partial "mobile_nav_toggle.html" . }}
+  {{ if .Site.Params.Summary }}
+  <div class="summary">
+    {{ with .Site.GetPage .Site.Params.Summary }}
+      {{ if .Title}}
+        <h1>{{ .Title}} </h1>
+      {{ end }}
+      {{ .Content }}
+    {{ end }}
+  </div>
+  {{ end }}
+    <h1>Les objets</h1>
+    
+    {{ range .Data.Pages.ByDate }}
+    <div class="card" style="width: 100%;">
+      {{ if and (isset .Params "image") .Params.image }}
+        {{ if eq .Params.showonlyimage true }}
+        <a href="{{ .Permalink }}" title="" class="card-img-top with-hover-overlay">
+        {{ else }}
+        <a href="{{ .Permalink }}" title="" class="card-img-top with-hover-overlay with-hover-icon">
+        {{ end }}
+            <img src="{{.Params.image | absURL}}" alt="" class="card-img-top">
+        </a>
+      {{ end }}
+      <div class="card-body">
+        <h4><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+        {{ if .Description }}
+            <p class="card-text">{{ .Description }}</p>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}   
+</div>

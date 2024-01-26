@@ -1,25 +1,33 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
+baseURL = 'https://www.detourner.fr/'
+languageCode = 'fr-FR'
 title = 'Détourner'
-theme = 'hugo-tanka'
+theme = 'hugo-creative-portfolio-theme'
 
-enableEmoji = true
-hasCJKLanguage = false
+[params.meta]
+  favicon = true
 
-pygmentsstyle = "vs"
-pygmentscodefences = true
 
 [params]
-sitename = "Détourner"
-copyrights = "detourner.fr"
-defaultList = "global"
-paginationLen = 3
-projectsURL = "https://www.detourner.fr"
-highlightjs = true
-highlightjslanguages = ["r", "python", "stan"]
-uselatex = true
-progressively = false
+  about = 'about.md'
+  logo = 'logo_detourner.png'
+  # Style options: default (pink), blue, green, pink, red, sea, violet
+  # Use custom.css for your custom styling
+  style = "default"
+  description = "Détourner est un atelier de création d'objets technologique atypique et divertissant."
+  copyright = "&copy;2024 Détourner"
+  sidebarAbout = ["Atelier de création d'objets"]
+  email = "contact@detourner.fr"
+  summary = "/introduction/introduction"
 
+  # Nav links in the side bar
+  [[params.navlinks]]
+  name = "Objets"
+  url = "objects/"
+  home = true
+
+  [[params.navlinks]]
+  name = "A propos de"
+  url = "about/"
 
 
 
